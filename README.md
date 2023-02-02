@@ -1,24 +1,17 @@
 # t
 
-![GitHub license](https://img.shields.io/badge/license-GNU_AGPLv3-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
-t
+This project is a professional README generator that prompts the user with questions that will be used to generate a README for the user using the answers given.
 
 ## Table of Contents 
-
-
-* [License](#license)
 
 
 * [Installation](#installation)
 
 * [Usage](#usage)
-
-* [Contribution](#contribution)
-
-* [Test](#test)
 
 * [Questions](#questions)
 
@@ -27,26 +20,18 @@ t
 To install necessary dependencies, run the following command:
 
 ```
-t
+node index.js
 ```
 
 ## Usage
 
-t
-
-## Contribution
-
-t
-
-## Test
-
-t
+This program is used to generate the user a professional README.
 
 ## Questions
 
 For any additional questions, contact me at the following places:
 
-Github: t
+Github: Alexander1262
 
-Email: t
+Email: weisssander@gmail.com
 
