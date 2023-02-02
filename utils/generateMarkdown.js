@@ -1,3 +1,4 @@
+// The badge display based on the license you chose
 function renderLicenseBadge(license) {
   if (license !== 'The Unlicense') {
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
@@ -5,7 +6,7 @@ function renderLicenseBadge(license) {
   return '';
 
 }
-
+// This renders the license link for the table of contents
 function renderLicenseLink(license) {
   if (license !== 'None') {
     return `\n* [License](#license)\n`;
@@ -13,7 +14,7 @@ function renderLicenseLink(license) {
   return '';
 
 }
-
+// this generateMarkdown function is the template for the entire README
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -66,5 +67,5 @@ Email: ${data.email}
 
 `;
 }
-
+// exports the generateMarkdown function
 module.exports = generateMarkdown;
