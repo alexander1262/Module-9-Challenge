@@ -1,6 +1,8 @@
+// included the require dependencies so the program can run
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
+// questions array that is used as the prompt to build the page
 const questions = [
     {
         type: 'input',
@@ -121,12 +123,12 @@ const questions = [
         }
     }
 ];
-
+// this function is used to write the new README based on the fs dependency
 function writeToFile(fileName, data) {
     fs.writeFileSync(fileName, data);
     console.log('README successfully created!')
 }
-
+// this function takes all the answers from the prompt and writes them over to the generateMarkdown file to build the README
 function init() {
     console.log('init')
     inquirer.prompt(questions)
