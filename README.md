@@ -24,12 +24,16 @@ https://drive.google.com/file/d/1uQ578TYbaHPtI_frQJTp72RzH9Og2Ot0/view
 To install necessary dependencies, run the following command:
 
 ```
-node index.js
+npm i
 ```
 
 ## Usage
 
-This program is used to generate the user a professional README.
+To run the program once you have it open, run the following command:
+
+```
+node index.js
+```
 
 ## Questions
 
